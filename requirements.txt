@@ -1,0 +1,15 @@
+# Web API for the studio
+fastapi
+uvicorn[standard]
+
+# Kafka client for producer / consumer
+kafka-python
+
+# Redis client (for live viewer counts)
+redis
+
+# Spark Structured Streaming
+pyspark
+
+# (Optional but often handy)
+python-dotenv
