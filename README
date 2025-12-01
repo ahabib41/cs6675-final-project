@@ -1,15 +1,33 @@
-### Run Kafka + send simulated events
+# CS 6675 – Streaming Metrics Final Project
 
-Prereqs: Docker, Python 3.9
+This repo contains my CS 6675 final project: a small streaming pipeline with Kafka + Spark + FastAPI backend and a React frontend dashboard. It simulates viewer events, computes metrics, and shows a live dashboard with comments.
+
+---
+
+## 1. Prerequisites
+
+Make sure you have:
+
+- Python 3.9+
+- Java 17 (for Spark)
+- Docker / Docker Compose
+- Node.js + npm
+
+---
+
+## 2. Setup (first time)
+
+From the project root (where `run_backend.sh` lives):
 
 ```bash
-# 1. Start Kafka (Docker)
-docker compose up
+cd /Users/antonyh/Desktop/FINAL_PROJECT   # or your clone path
 
-# 2. In another terminal, create venv and install deps
+# Python venv + deps
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-# 3. Run simulator -> Kafka producer
-python -m backend.kafka.kafka_producer
+# Frontend deps
+cd frontend
+npm install
+cd ..
