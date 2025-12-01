@@ -1,15 +1,14 @@
-# Web API for the studio
 fastapi
 uvicorn[standard]
 
-# Kafka client for producer / consumer
-kafka-python
+pandas
+pyarrow
 
-# Redis client (for live viewer counts)
+kafka-python
+confluent-kafka
+
 redis
 
-# Spark Structured Streaming
 pyspark
 
-# (Optional but often handy)
 python-dotenv
