@@ -4,7 +4,16 @@ This repo contains my CS 6675 final project: a  streaming pipeline with Kafka + 
 
 ---
 
-## 1. Prerequisites
+## How to run the project
+
+### 1. Create and activate virtualenv
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+## 2. Prerequisites
 
 Make sure you have:
 
