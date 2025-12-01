@@ -1,6 +1,6 @@
 # CS 6675 – Streaming Metrics Final Project
 
-This repo contains my CS 6675 final project: a small streaming pipeline with Kafka + Spark + FastAPI backend and a React frontend dashboard. It simulates viewer events, computes metrics, and shows a live dashboard with comments.
+This repo contains my CS 6675 final project: a  streaming pipeline with Kafka + Spark + FastAPI backend and a React frontend dashboard. It simulates viewer events, computes metrics, and shows a live dashboard with comments.
 
 ---
 
